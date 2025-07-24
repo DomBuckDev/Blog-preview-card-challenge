@@ -86,8 +86,14 @@ body {
 
 .card-header {
   font-size: var(--font-size-1);
+  color: var(--grey-950);
   font-weight: 800;
   line-height: 1.5;
+}
+
+.card-header:hover {
+  color: var(--primary-yellow);
+  cursor: pointer;
 }
 
 .card-text {
